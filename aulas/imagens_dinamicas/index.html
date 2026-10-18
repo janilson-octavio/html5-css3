@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-ang">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="shortcut icon" href="meu.icon.ico" type="icon">
+    <title>mydia em html5</title>
+    <style>
+        body{
+            background-color: burlywood;
+            color:#000;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+
+        }
+        
+
+            
+
+    </style>
+</head>
+<body><h1>imagens dinamicas</h1>
+    <p>vamos abrir essas imagens em varios despositivos</p>
+    <hr>
+    <picture>
+        <source media="(max-width:750px)" srcset="imagens/foto1.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto2.png" type="image/png">
+        <img src="imagens/foto3.png" alt="Imagen flexível">
+    </picture>
+
+    <h1>reproduzir áudio</h1>
+    <p>já disponivel o problema no site</p>
+    <audio controls>
+        <source src="mydia/problema type.m4a"  controls autoplay>
+    </audio>
+    <h1>segunda forma em navegadores menos compativeis</h1>
+    <audio preload="metadata" autoplay controls loop >
+        <source src="mydia/problema type.m4a" type="audio/m4a">
+        <source src="mydia/sample_leve.mp3" type="audio/mpeg">
+        <source src="mydia/sample_leve.mp3" type="audio/wave">
+        <source src="mydia/problema type.m4a" type="audio/ogg">
+        <p>já podes baixar agora a musica problema<a href="mydia/problema type.m4a">baixe já o som</a></p>
+    </audio>
+
+    
+    
+    
+    
+</body>
+</html>

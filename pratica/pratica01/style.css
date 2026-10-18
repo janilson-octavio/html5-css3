@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+
+
+
+
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+section{
+    background-color: aliceblue;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px;
+    color: black;
+    text-align:  center justify;
+    margin: 10px;
+    padding: 10px;
+}
+
+article{
+    background-color: cadetblue;
+
+}
+
+footer{
+    background-color: brown;
+    text-align: center;
+}
