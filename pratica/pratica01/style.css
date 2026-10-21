@@ -1,0 +1,18 @@
+@charset "utf-8";
+
+*{
+
+    body{
+        div.quadrado{
+            display: inline-block;
+            border: 2px black;
+            border-radius: 10px;
+            width: 300px;
+            height: 300px;
+        }
+
+        div#q1{
+            background-image: url();
+        }
+    }
+}
