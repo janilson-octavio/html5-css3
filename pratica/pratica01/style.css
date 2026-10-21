@@ -1,9 +1,9 @@
 @charset "utf-8";
 
-*{
+* {
 
-    body{
-        div.quadrado{
+    body {
+        div.quadrado {
             display: inline-block;
             border: 2px black;
             border-radius: 10px;
@@ -11,8 +11,8 @@
             height: 300px;
         }
 
-        div#q1{
-            background-image: url();
+        div#q1 {
+            background-image: url(imagens02/my_foto.png);
         }
     }
 }
