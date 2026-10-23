@@ -14,5 +14,9 @@
         div#q1 {
             background-image: url(imagens02/my_foto.png);
         }
+
+        div#q2 {
+            background-image: url(imagens02/);
+        }
     }
 }
