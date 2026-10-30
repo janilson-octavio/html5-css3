@@ -13,10 +13,21 @@
 
         div#q1 {
             background-image: url(imagens02/my_foto.png);
+            background-size: 100% 100%;
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            left: 85%;
+            top: 100%;
+            transform: translate(-50%, -50%);
+
         }
 
         div#q2 {
-            background-image: url(imagens02/);
+            background-image: url(imagens/pattern004.png);
+            background-position: center;
+            width: 200px;
+            height: 100px;
         }
     }
 }
